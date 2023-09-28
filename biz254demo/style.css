@@ -371,6 +371,9 @@ text-decoration: underline;
 }
 
 /* categories section*/
+.Categories .heading {
+	margin-top:10rem;
+}
 
 .Categories .box-container {
     display: grid;
@@ -448,6 +451,9 @@ text-decoration: underline;
 
 /* blog section */
 
+.Blog .heading {
+	margin-top :10rem;
+}
 .Blog .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
@@ -629,15 +635,6 @@ text-decoration: underline;
         
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
