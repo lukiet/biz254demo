@@ -12,6 +12,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"><span style="color: black;">Bias</span><span style="color: red;">hara</span><span style="color: green;">254</span></i></a>
+        
+<!-- creating the navbar-->
+        
+        <nav class="navbar">
+            <a href="index.html" id="home">Home</a>
+            <a href="#features">Features</a>
+            <a href="product.html">Products</a>
+            <a href="#Categories">Categories</a>
+            <a href="#Review">Review</a>
+            <a href="ourblog.html" >Blog</a>
+            <a href="#Contact">Contact us</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here.....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        
+<!-- cart items -->
+        
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/laptop.jpeg" width="100" height="100" alt="">
+                <div class="content">
+                    <h3>laptop</h3>
+                    <span class="price">Ksh 50,000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/phone.jpg" width="100" height="100" alt="">
+                <div class="content">
+                    <h3>Phone</h3>
+                    <span class="price">Ksh 20,000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/fridge.jpg" width="100" height="100" alt="">
+                <div class="content">
+                    <h3>Fridge</h3>
+                    <span class="price">Ksh 80,000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> Total : Ksh 150,000 </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+<!-- log in form -->
+
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Enter your email :" class="box">
+            <input type="password" placeholder="Enter your password :" class="box">
+            <p>Forgot password <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Create account</a></p>
+            <input type="submit" value="log in now" class="btn">
+        </form>        
+    </header>
+
+
+<!-- blog sections-->
     <section class="Blog" id="Blog">
         <h1 class="heading">Our <span>Blog</span></h1>
         <div class="box-container">
@@ -87,12 +161,47 @@
 
 
 
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Biashara254 <i class="fas fa-shopping-basket"></i></h3>
+            <p>Simply business</p>
+            <div class="share">
+                <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Contact Information</h3>
+           <a href="#" class="links"><i class="fas fa-phone"></i>+254700000000</a>
+           <a href="#" class="links"><i class="fas fa-phone"></i>+254799999999</a>
+           <a href="#" class="links"><i class="fas fa-envelope"></i>biz@gmail.com</a>
+           <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Nairobi, Kenya</a>
+        </div>
+    </div>
+</section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script src="index.js"></script>
 <h2>COPYRIGHT &copy; 2023</h2>
+
+<div class="credit">Designed by<span>| Godwill & Luke </span>| All rights reserved</div>
+</body>
+</html>
+
+
+
+   
 
 <footer style="background:white;"><h1><marquee behavior="" direction="">Thank you for reading our blog</marquee></h1></footer>
 </body>
